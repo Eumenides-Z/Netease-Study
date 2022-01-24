@@ -1,0 +1,322 @@
+.topNode {
+	height: 56px;width: 100%;
+	background-color: #303440;z-index: 59;
+}
+.topNode .topNodeContent {
+	width: 1206px;
+	height: 100%;
+	margin: 0 auto;
+}
+.topNode .topNodeContent .logo {
+	float: left;
+	margin-top: 14px;
+}
+/* 中间搜索 */
+.topNode .searchNode {
+	position: relative;
+	width: 357px;
+	height: 36px;
+	border: 1px solid #191e2b;
+	float: left;
+	background-color: white;
+	border-radius: 19px;
+	margin-top: 9px;
+	margin-left: 17px;
+}
+.topNode .searchNode .searchNodeLeft {
+	position: relative;
+	height: 100%;
+	float: left;
+	width: 44px;
+	font-size: 14px;
+	line-height: 36px;
+	background: url(../image/jt-b.gif) no-repeat right 13px;
+	margin-left: 18px;
+	color: #757575;cursor: pointer;
+	z-index: 50;
+}
+.topNode .searchNode .searchNodeLeft.active{
+	color: #4eae54;background-image: url(../image/jt-b2.gif);
+}
+
+.topNode .searchNode .searchNodeLeft .searchNodeLeftUl{
+	position: absolute;
+	width: 60px;height: 84px;background: #FFFFFF;
+	left: -18px;
+	top:35px;box-shadow: 0 0 3px #ccc;
+	border-radius:3px; 
+	padding-top:4px; display: none;
+}
+.topNode .searchNode .searchNodeLeft .searchNodeLeftUl li{
+	float: left;width: 100%;height: 40px;line-height: 40px;text-align: center;
+	font-size: 13px;color: #313a3f;
+}
+.topNode .searchNode .searchNodeLeft .searchNodeLeftUl li:hover{
+	color: #58b35e;
+}
+.topNode .searchNode .searchNodeLeft .searchNodeLeftUl li.active{
+	background: #f5f5f5;color: #58b35e;
+}
+.topNode .searchNode .searchNodeOl{
+	position: absolute;width: 300px;
+	height: auto;left: 18px;top: 40px;
+	background: #fff;z-index: 51;box-shadow: 0 0 5px #ccc;
+	padding-top:10px;padding-bottom:10px;transition: .7s;display: none;
+}
+.topNode .searchNode .searchNodeOl li{
+	float: left;height: 40px;width: 100%;
+	line-height: 40px;font-size: 12px;
+	text-indent: 16px;
+}
+.topNode .searchNode .searchNodeOl li a{
+	width: 100%;height: 100%;float: left;color: #3d3d3d;
+	font-size: 14px;
+}
+.topNode .searchNode .searchNodeOl li a:hover{
+	background: #f3f3f4;color: #3aa54e;
+}
+
+.topNode .searchNode .searchNodeInput {
+	width: 198px;
+	height: 36px;
+	line-height: 36px;
+	border: none;
+	float: left;
+	outline: none;
+	padding-left: 14px;
+	font-size: 15px;
+	color: #a2a222;
+}
+
+.topNode .searchNode .searchNodeRight {
+	float: right;
+	width: 80px;
+	height: 100%;
+	background: url(../image/search.gif) no-repeat 10px center, #4aaf4f;
+	line-height: 36px;
+	color: white;
+	text-indent: 29px;
+	font-family: "microsoft yahei";
+	font-size: 15px;
+	border-radius: 0 19px 19px 0;
+}
+
+/* 右侧 */
+.topNode .bannerTop {
+	height: 100%;
+	float: left;
+	margin-left: 31px;
+}
+.topNode .bannerTop>li {
+	float: left;
+	margin: 0 7px;
+	height: 100%;
+	color: #f4f4f5;
+	line-height: 56px;
+	cursor: pointer;
+	font-size: 14px;
+}
+.topNode .bannerTop li:hover span{
+	color: #4ca753;
+}
+.topNode .bannerTop .downloadApp {
+	position: relative;
+	padding-left: 14px;
+	background: url(../image/download.gif) no-repeat left center;
+}
+.topNode .bannerTop .downloadApp:hover{
+	background-image: url(../image/download-h.gif);
+}
+.topNode .bannerTop .downloadApp:hover .downloadAppShow{
+	display: block;
+}
+.topNode .bannerTop .downloadApp .downloadAppShow{
+	position: absolute;width: 350px;
+	height: 180px;border: 1px solid #d5d6db;
+	top: 50px;left: -128px;transition: 0.17s;
+	background: #fff;z-index: 12;display: none;
+}
+.topNode .bannerTop .downloadApp .downloadAppShow .downloadAppLeft{
+	float: left;width: 180px;height: 100%;
+}
+.topNode .bannerTop .downloadApp .downloadAppShow .downloadAppLeft img{
+	float: left;margin: 23px 0 0 23px;
+}
+.topNode .bannerTop .downloadApp .downloadAppShow .downloadAppText{
+	float: left;width: 170px;height: 17px;
+	color: #544c47;text-shadow: 0 0 0 white;
+	margin: 24px 0 0 0;
+	line-height: 17px;font-size: 17px;
+	margin-bottom:17px;
+}
+.topNode .bannerTop .downloadApp .downloadAppShow .downloadAppJt{
+	position: absolute;width: 13px;height: 10px;
+	background: url(../image/jt-t-down.png);left: 168px;top: -10px;
+}
+.topNode .bannerTop .downloadApp .downloadAppShow a{
+	float: left;width: 150px;height: 44px;margin-bottom:10px;
+}
+
+.topNode .bannerTop .focus {
+	padding-left: 24px;position: relative;
+	background: url(../image/lw.gif) no-repeat left center;
+}
+.topNode .bannerTop .focus:hover .focusShow{
+	display: block;
+}
+.topNode .bannerTop .focus .focusShow{
+	position: absolute;width: 240px;height: 244px;
+	background: #fff;top: 50px;left: -70px;
+	box-shadow: 0 2px 8px 0 rgba(0,0,0,0.15);
+	border-radius: 2px;z-index: 11;display: none;
+}
+.topNode .bannerTop .focus .focusShow .focusShowJt{
+	position: absolute;width: 16px;height: 10px;
+	background: url(../image/jt-t.png);left: 118px;top: -10px;
+}
+.topNode .bannerTop .focus .focusShow .focusShowText{
+	float: left;font-size: 13px;height: 13px;line-height: 13px;
+	width: 100%;text-align: center;color: #262626;
+	text-shadow: 0 0 0 white;margin-top:18px;
+}
+.topNode .bannerTop .focus .focusShow .focusShowTitle{
+	float: left;font-size: 12px;height: 12px;line-height: 12px;
+	width: 100%;text-align: center;color: #5b5b5b;
+	text-shadow: 0 0 0 white;margin-top:15px;
+}
+.topNode .bannerTop .focus .focusShow img{
+	float: left;margin:28px 0 0 58px;
+}
+
+
+.topNode .bannerTop .line {
+	width: 5px;
+	background: url(../image/sg.gif) no-repeat 0 19px;
+	cursor: default;
+}
+
+.topNode .bannerTop .bell {
+	background: url(../image/tx.gif) no-repeat 0 center;
+	width: 17px;
+}
+
+.topNode .bannerTop .gwc {
+	background: url(../image/gwc.gif) no-repeat 0 center;
+	width: 18px;
+}
+
+.topNode .bannerTop .user {
+	position: relative;
+	float: left;
+	height: 100%;
+}
+.topNode .bannerTop .user img {
+	border-radius: 50%;
+	width: 34px;
+	height: 34px;
+	float: right;
+	margin-top: 11px;
+}
+.topNode .bannerTop .user span {
+	color: #f4f4f5;
+	line-height: 56px;
+	font-size: 14px;
+	float: left;
+	margin: 0 9px;cursor: pointer;
+}
+.topNode .bannerTop .user .userUl{
+	position: absolute;width: 160px;height: 218px;
+	background: #ffffff;border: 1px solid #dbd9d8;
+	right: 0;top: 50px;z-index: 101;padding: 8px;
+	display: none;transition: .17s;
+}
+.topNode .bannerTop .user .userUl li{
+	float: left;width: 100%;height: 36px;
+}
+.topNode .bannerTop .user .userUl li.border-bottom-li{
+	border-bottom:1px solid #ebecec;
+}
+.topNode .bannerTop .user .userUl li a{
+	width: 100%;height: 100%;
+	float: left;font-size: 12px;line-height: 36px;
+	color: #98999a;text-indent: 10px;
+}
+.topNode .bannerTop .user .userUl li a .lspan{
+	float: left;
+	color: #98999a;line-height: 36px;margin: 0;font-size: 12px;
+}
+.topNode .bannerTop .user .userUl li a .rspan{
+	float: right;
+	color: #98999a;line-height: 36px;font-size: 12px;
+	margin-right:10px;color: #fd9a2f;
+}
+.topNode .bannerTop .user .userUl li:hover{
+	background: #f3f4f6;
+}
+.topNode .bannerTop .user .userUl .userJt{
+	position: absolute;width: 14px;height: 10px;
+	right: 10px;top: -9px;
+	background: url(../image/jt-user-t.png);
+}
+
+.topNode .bannerTop .myClass{
+	position: relative;
+}
+.topNode .bannerTop .myClass .myClassCont{
+	position: absolute;width: 261px;height: auto;
+	border: 1px solid #dddddd;
+	padding: 7px 0;
+	left: 0;top: 44px;background: #fff;
+	z-index: 52;
+	color: #303030;font-size: 13px;line-height: 22px;
+	text-indent: 10px;text-shadow: 0 0 0 white;
+	cursor: auto;display: none;transition: .4s;
+}
+.topNode .bannerTop .myClass .myClassCont .myClassJt{
+	position: absolute;width: 14px;height: 10px;
+	left: 21px;top: -9px;
+	background: url(../image/jt-user-t.png);}
+}
+.topNode .bannerTop .myClass .myClassCont .myClassTop{
+	float: left;width: 361px;height: 22px;
+}
+.topNode .bannerTop .myClass .myClassCont .myClassUl{
+	float: left;width: 261px;height: auto;
+}
+.topNode .bannerTop .myClass .myClassCont .myClassUl li{
+	float: left; width: 100%;height:51px;margin: 0;
+}
+.topNode .bannerTop .myClass .myClassCont .myClassUl li a{
+	float: left;width: 100%;height: 100%;
+}
+.topNode .bannerTop .myClass .myClassCont .myClassUl li:hover{
+	background: #f6f6f6;
+}
+.topNode .bannerTop .myClass .myClassCont .myClassUl li:hover .myClassUlRightName{
+	color: #39a03d;
+}{}
+.topNode .bannerTop .myClass .myClassCont .myClassUl li .myClassUlLeft{
+	float: left;width: 52px;height: 51px;
+}
+.topNode .bannerTop .myClass .myClassCont .myClassUl li .myClassUlLeft img{
+	float: left;margin: 8px 0 0 10px;
+}
+.topNode .bannerTop .myClass .myClassCont .myClassUl li .myClassUlRightName{
+	float: left;width: 209px;font-size: 12px;
+	line-height: 12px;color: #161616;
+	text-shadow: 0 0 0 white;margin-top:10px;
+}
+.topNode .bannerTop .myClass .myClassCont .myClassUl li .myClassUlRightNow{
+	float: left;width: 209px;font-size: 12px;line-height: 12px;
+	color: #161616;
+	color: #999999;text-shadow: 0 0 0 white;margin-top:5px;
+}
+.topNode .bannerTop .myClass .myClassCont .myClassMore{
+	float: left;width: 261px;height: 40px;
+	font-size: 12px;
+	line-height: 40px;color: #565656;text-align: center;
+	text-shadow: 0 0 0 white;background: #f6f6f6;
+}
+.topNode .bannerTop .myClass .myClassCont .myClassMore:hover{
+	color: #3e9f38;
+}

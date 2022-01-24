@@ -1,0 +1,120 @@
+.adv {
+	margin: 59px auto 26px;
+	width: 1206px;
+	;
+	height: 130px;
+}
+.adv .adv-l {
+	float: left;
+	width: 960px;
+	height: 100%;
+}
+.adv .adv-r {
+	float: left;
+	width: 225px;
+	height: 100%;
+	margin-left: 20px;
+}
+.footer {
+	height: 184px;
+	background-color: #474443;
+}
+.footerContent {
+	position: relative;
+	width: 1206px;
+	height: 100%;
+	margin: 0 auto;
+}
+.footer .footer-text1 {
+	float: left;
+	margin-top: 34px;
+	width: 100%;
+	height: 32px;
+	color: #fafafa;
+	line-height: 24p;
+}
+.footer .downBtn {
+	float: right;
+	width: 108px;
+	height: 30px;
+	cursor: pointer;
+	margin-left: 11px;
+}
+.footer .footer-text2 {
+	float: left;
+	height: 19px;
+	width: 100%;
+}
+.footer .footer-text2 li a {
+	float: left;
+	height: 100%;
+	line-height: 19px;
+	margin-right: 21px;
+	color: #fff;
+}
+.footer .footer-text3 {
+	float: left;
+	height: 36px;
+	width: 100%;
+	color: #fff;
+}
+.footer .footer-text3 span {
+	float: left;
+	margin-top: 20px;
+	margin-right: 21px;
+	color: #949393;
+}
+
+.footer .footer-text3 .last {
+	position: absolute;
+	height: 36px;
+	width: 146px;
+	top: 81px;
+	right: 0;
+}
+.footer .footer-text3 .last .lastTxt {
+	line-height: 36px;
+	color: #fff;
+	margin-right: 0;
+	margin-top: 0;
+}
+.footer .footer-text3 .last .imgSina {
+	position: relative;
+	cursor: pointer;
+	float: right;
+	margin-left: 6px;
+	margin-top: 3px;
+}
+.footer .footer-text3 .last .imgWx {
+	position: relative;
+	cursor: pointer;
+	float: right;
+	margin-top: 3px;
+}
+.footer .footer-text3 .last .imgWx .ewmShow{
+	position: absolute;top: -256px;left: -113px;
+	width: 240px;height: 247px;
+	background: url(../image/ewm.gif) no-repeat center 87px,#fff;
+	border-radius: 3px;box-shadow: 0 0 5px #ccc;display: none;
+}
+.footer .footer-text3 .last .imgWx:hover .ewmShow{
+	display: block;
+}
+.footer .footer-text3 .last .imgWx .ewmShow .ewmText{
+	float: left;height: 13px;color: black;
+	width: 100%;line-height: 13px;margin-top: 19px;
+	font-size: 13px;text-align: center;
+}
+.footer .footer-text3 .last .imgWx .ewmShow .ewmTitle{
+	float: left;height: 11px;line-height: 11px;
+	width: 100%;font-size: 11px;color: #474747;
+	text-align: center;margin-top: 16px;
+}
+.footer .footer-text3 .last .imgWx .ewmShow .ewmSc{
+	position: absolute;width: 17px;height: 9px;
+	background: url(../image/sjx.gif) no-repeat;
+	bottom: -9px;left: 50%;
+}
+.footer .footer-text3 .last .imgSina .ewmShow{
+	display: none;
+}

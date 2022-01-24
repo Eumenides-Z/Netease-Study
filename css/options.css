@@ -1,0 +1,137 @@
+.optionBanner {
+	height: 56px;
+	width: 1206px;
+	margin: 0 auto;
+}
+.optionBanner .options>li{
+	position: relative;
+	height: 56px;
+	line-height: 66px;
+	float: left;
+	font-size: 16px;
+	margin-right: 62px;
+}
+.optionBanner .options>li .activeOl{
+	position: absolute;width: 88px;background-color: #fff;
+	z-index: 20;top: 53px;box-shadow: 0 0 5px #ccc;
+	display: none;
+}
+.optionBanner .options>li:hover .activeOl{
+	display: block;
+}
+.optionBanner .options>li .activeOl li{
+	float: left;height: 45px;line-height: 45px;
+	width: 100%;
+}
+.optionBanner .options>li .activeOl li a{
+	float: left;font-size: 13px;color: #7f7f7f;
+	text-indent: 17px;
+}
+.optionBanner .options>li .activeOl li:hover a{
+	font-weight: bold;color: black;
+}
+.optionBanner .options a{
+	color: #424242;
+}
+.optionBanner .options>li:after {
+	width: 24px;
+	height: 3px;
+	content: "  ";
+	background-color: #43AC49;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+	display: none;
+}
+.optionBanner .options>li.active a {
+	color: #43ac49;
+}
+.optionBanner .options>li.active:after {
+	display: block;
+}
+.optionBanner .options>li:hover:after {
+	display: block;
+}
+.optionBanner .options>li a:hover{
+	color: #43AC49;
+}
+.optionBanner .etc {
+	position: relative;float: right;
+	margin-right: 0;
+	width: 18px;line-height: 56px;z-index: 20;
+}
+.optionBanner .etc:hover .etcOl{
+	display: block;
+}
+.optionBanner .etc .etcOl{
+	position: absolute;top: 44px;left: -37px;
+	width: 88px;height: 135px;background-color: #fff;
+	display: none;
+}
+.optionBanner .etc .etcOl li{
+	position: relative;
+	float: left;height: 45px;line-height: 45px;
+	text-align: center;
+	font-size: 13px;padding-left: 20px;
+}
+.optionBanner .etc .etcOl li:hover a{
+	color: #4eae54;font-weight: bold;
+}
+.optionBanner .etc .etcOl li a{
+	color: #393939;width: 100%;height:100%;
+	float: left;text-align: center;
+}
+
+
+/* 轮播 */
+.sliderPosition {
+	height: 360px;background-color: #f15c5a;
+}
+.sliderContent {
+	width: 1206px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.sliderContent .sliderPic li{
+	position: absolute;display: none;opacity: 0;transition: 0.49s;
+}
+.sliderContent .sliderPic li.active{
+	position: absolute;display: block;opacity: 0;
+}
+
+.sliderContent .sliderPic img {
+	float: left;
+}
+.sliderContent .sliderButton {
+	height: 320px;
+	width: 280px;
+	position: absolute;
+	right: 1px;
+	background: rgba(0, 0, 0, 0.4);
+	top: 20px;
+	border-radius: 3px;
+}
+.sliderContent .sliderButton a {
+	height: 100%;
+	color: #aaa;
+	font-size: 16px;
+	float: left;
+}
+
+.sliderContent .sliderButton li {
+	text-indent: 20px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+}
+
+.sliderContent .sliderButton .first {
+	margin-top: 22px;
+}
+
+.sliderContent .sliderButton li.active {
+	color: #30e043;
+	background: url(../image/slider-jt.png) no-repeat 8px center;
+}

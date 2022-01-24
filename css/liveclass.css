@@ -1,0 +1,109 @@
+/* 直播课 */
+.liveClass {
+	position: relative;
+	width: 1206px;
+	height: 287px;
+	margin: 0 auto;
+}
+
+.liveClass h2 {
+	font-size: 23px;
+	float: left;
+	line-height: 23px;
+	height: 23px;
+}
+
+.liveClass .more {
+	position: absolute;
+	font-size: 14px;
+	color: #696969;
+	right: 1px;
+	top: 5px;
+	padding-right: 27px;
+	background: url(../image/more-jt.png) no-repeat right center;
+}
+
+.liveClass .teachers {
+	position: relative;
+	float: left;
+	width: 1206px;
+	height: 248px;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.liveClass .teachers li {
+	float: left;
+	width: 376px;
+	height: 124px;
+	border-radius: 3px;
+	margin-right: 24px;
+	margin-bottom: 4px;
+}
+
+.liveClass .teachers li:hover {
+	box-shadow: 0 0 5px #ccc
+}
+
+.liveClass .teachers li a {
+	float: left;
+	height: 100%;
+	width: 100%;
+}
+
+.liveClass .teachers li .photo {
+	float: left;
+	width: 80px;
+	height: 100%;
+	width: 80px;
+}
+
+.liveClass .teachers li .photo img {
+	float: left;
+	border-radius: 50%;
+	margin-top: 12px;
+	margin-left: 12px;
+}
+
+.liveClass .teachers li .time {
+	float: left;
+	width: 260px;
+	height: 13px;
+	font-size: 13px;
+	line-height: 13px;
+	margin-top: 14px;
+	color: #070707;
+	margin-left: 20px;
+}
+
+.liveClass .teachers li .time .date {
+	float: left;
+	padding-right: 13px;
+	background: url(../image/line-l.png) no-repeat right center;
+	margin-right: 9px;
+}
+
+.liveClass .teachers li .time .alert {
+	color: #4aaf4f;
+}
+
+.liveClass .teachers li .content {
+	float: left;
+	width: 260px;
+	color: #2e2e2e;
+	line-height: 24px;
+	font-size: 16px;
+	margin-top: 11px;
+	padding-right: 16px;
+	margin-left: 20px;
+}
+
+.liveClass .teachers li .bottom {
+	float: left;
+	width: 260px;
+	font-size: 11px;
+	color: #606060;
+	line-height: 11px;
+	margin-top: 11px;
+	margin-left: 20px;
+}

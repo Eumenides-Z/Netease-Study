@@ -1,0 +1,178 @@
+.habit {
+	margin: 40px auto 0;
+	width: 1206px;
+	height: 60px;
+	background-color: #edf7ee;
+}
+.habit .context {
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	text-shadow: 0.5px 0.5px 1px #FFFFFF;
+}
+.habit .context .recom {
+	float: left;
+	text-indent: 21px;
+	font-size: 17px;
+	color: #181617;
+}
+.habit .context .change {
+	float: left;
+	margin-left: 21px;
+	font-size: 13px;
+	color: #4db052;
+	cursor: pointer;
+}
+.mask {
+	position: fixed;
+	z-index: 90;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+	display: none;
+}
+
+.habitAlt {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	width: 990px;
+	height: 470px;
+	margin: -235px 0 0 -495px;
+	z-index: 91;
+	background-color: #fff;
+	border-radius: 3px;display: none;
+}
+.habitAlt .topAlt {
+	float: left;
+	margin-top: 55px;
+	margin-left: 50px;
+	height: 19px;
+	width: 100%;
+}
+.habitAlt .topAlt .choose {
+	float: left;
+	font-size: 19px;
+	line-height: 19px;
+	color: #1c1c1c;
+	height: 19px;
+}
+.habitAlt .topAlt .adjust {
+	float: left;
+	font-size: 17px;
+	margin-left: 34px;
+	color: #616161;
+}
+.habitAlt .optionsAlt {
+	float: left;
+	margin-top: 26px;
+	margin-left: 40px;
+	height: 40px;
+	width: 910px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.habitAlt .optionsAlt li {
+	position: relative;
+	float: left;
+	height: 40px;
+	margin-right: 32px;
+	font-size: 16px;
+	color: #666;
+	line-height: 40px;
+	cursor: pointer;
+}
+.habitAlt .optionsAlt li .line{
+	position: absolute;
+	background: #37a43e;
+	width: 100%;
+	height: 3px;
+	left: 0;
+	bottom: -1px;
+	display: none;
+}
+.habitAlt .optionsAlt li.active .line{
+	display: block;
+}
+.habitAlt .optionsContent {
+	float: left;
+	height: 150px;
+	width: 910px;
+	margin-left: 40px;
+	border-bottom: 1px solid #e0e0e0;display: none;
+}
+.habitAlt .optionsContent.show{
+	display: block;
+}
+.habitAlt .optionsContent li {
+	float: left;
+	height: 32px;
+	border: 1px solid #d1d1d1;
+	font-size: 13px;
+	line-height: 32px;
+	color: black;
+	border-radius: 14px;
+	margin-top: 20px;
+	margin-right: 20px;
+	padding: 0 20px;cursor: pointer;
+}
+
+.habitAlt .optionsContent li.active {
+	background-color: #4eae54;
+	color: white;
+}
+
+.habitAlt .chosen {
+	float: left;
+	margin-left: 40px;
+	height: auto;
+	width: 910px;
+}
+
+.habitAlt .chosen .chosenFirst {
+	height: 30px;
+	border: none;
+	padding: 0;
+}
+
+.habitAlt .chosen li {
+	float: left;
+	height: 28px;
+	border: 1px solid #d1d1d1;
+	font-size: 13px;
+	border-radius: 14px;
+	margin-top: 19px;
+	margin-right: 16px;
+	line-height: 28px;
+	padding: 0 16px;
+	color: #666666;
+}
+
+.habitAlt .chosen li img {
+	margin-left: 9px;
+	cursor: pointer;
+}
+
+.habitAlt .bgclose {
+	position: absolute;
+	background: url(../image/bg-closed.gif) no-repeat;
+	top: 20px;
+	right: 20px;
+	width: 14px;
+	height: 14px;
+	cursor: pointer;
+}
+.habitAlt .chosenOk{
+	float: left;
+    height: 44px;
+    width: 180px;
+    line-height: 44px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    background: #4eae54;
+    border-radius: 22px;
+    margin: 52px 0 0 405px;
+    cursor: pointer;
+}

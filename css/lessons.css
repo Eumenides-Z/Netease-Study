@@ -1,0 +1,58 @@
+.lessons {
+	margin: 23px auto 0;
+	width: 1206px;
+	height: 216px;
+}
+.lessons h2 {
+	float: left;
+	font-size: 23px;
+	line-height: 23px;
+	height: 23px;
+}
+.lessons .lesContent {
+	float: left;
+	margin-top: 19px;
+	height: 173px;
+	width: 1206px;
+}
+.lessons .lesContent .lesContentUl {
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+.lessons .lesContent .lesContentUl li {
+	float: left;
+	width: 225px;
+	height: 100%;
+	margin-right: 20px;
+}
+.lessons .lesContent .lesContentUl li:hover img{
+	transform: scale(1.2);
+}
+.lessons .lesContent .lesContentUl li .lesOuter{
+	overflow: hidden;
+}
+.lessons .lesContent .lesContentUl img {
+	float: left;
+	height: 125px;
+	border-radius: 2px;
+	width: 100%;transition: .7s;
+}
+
+.lessons .lesContent .lesContentUl .name {
+	float: left;
+	margin-top: 10px;
+	width: 100%;
+	font-size: 13px;
+	color: black;
+	line-height: 13px;
+}
+
+.lessons .lesContent .lesContentUl .afterName {
+	float: left;
+	margin-top: 13px;
+	font-size: 12px;
+	line-height: 12px;
+	width: 100%;
+	color: #6b6b6b;
+}

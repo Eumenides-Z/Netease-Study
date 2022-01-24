@@ -1,0 +1,77 @@
+.series {
+	margin: 47px auto 0;
+	width: 1206px;
+	height: 212px;
+}
+.series h2 {
+	float: left;
+	font-size: 23px;
+	line-height: 23px;
+	height: 23px;
+}
+.series .seriesUl {
+	float: left;
+	height: 170px;
+	width: 100%;
+	margin-top: 19px;
+}
+.series .seriesUl li {
+	float: left;
+	width: 286px;
+	height: 100%;
+	border-radius: 2px;
+	margin-right: 20px;
+	overflow: hidden;
+}
+.series .seriesUl li:hover img{
+	transform: scale(1.2);
+}
+.series .seriesUl li img{
+	transition: 0.5s;
+}
+.series .seriesUl li a {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+.series .seriesUl li .seriesOuter {
+	position: absolute;
+	left: 20px;
+	bottom: 18px;
+	width: 238px;
+	height: 68px;
+	z-index: 2;
+	border: 4px solid #fff
+}
+
+.series .seriesUl li .seriesInner {
+	position: absolute;
+	left: 25px;
+	bottom: 23px;
+	width: 236px;
+	height: 66px;
+	background-color: rgb(255, 255, 255, 0.93);
+	;
+	z-index: 3;
+}
+
+.series .seriesUl li .seriesInner .seriesName {
+	float: left;
+	margin-top: 18px;
+	margin-left: 40px;
+	font-size: 15px;
+	color: #222221;
+	height: 15px;
+	line-height: 15px;
+}
+
+.series .seriesUl li .seriesInner .seriesExp {
+	float: left;
+	margin-top: 10px;
+	margin-left: 28px;
+	font-size: 13px;
+	line-height: 13px;
+	height: 13px;
+	color: #6c6c6c;
+}

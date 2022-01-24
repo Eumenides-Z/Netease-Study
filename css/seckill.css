@@ -1,0 +1,120 @@
+.seckill {
+	margin: 51px auto 0;
+	width: 1206px;
+	height: 314px;
+}
+
+.seckill h2 {
+	float: left;
+	font-size: 23px;
+	line-height: 23px;
+	height: 23px;
+}
+
+.seckill .topTab {
+	float: left;
+	width: 100%;
+	height: 40px;
+	margin-top: 21px;
+}
+
+.seckill .topTab li {
+	float: left;
+	width: 200px;
+	height: 40px;
+	margin-right: 1px;
+	background-color: #edf7ee;
+	text-align: center;
+	font-size: 13px;
+	line-height: 40px;
+	color: #3c393c;
+	cursor: pointer;
+}
+
+.seckill .topTab .active{
+	background-color: #4aaf4f;
+	color: #fff;
+}
+
+.seckill .tabContent {
+	float: left;
+	height: 217px;
+	width: 100%;
+	margin-top: 12px;
+}
+
+.seckill .tabContent li {
+	float: left;
+	width: 225px;
+	height: 100%;
+	margin-right: 20px;
+}
+
+.seckill .tabContent .tabContentUl {
+	float: left;
+	width: 100%;
+	height: 100%;display: none;
+}
+.seckill .tabContent .show {display: block;}
+.seckill .tabContent .tabContentUl img {
+	float: left;
+	height: 125px;
+	border-radius: 2px;
+	width: 100%;
+}
+
+.seckill .tabContent .tabContentUl .name {
+	float: left;
+	margin-top: 10px;
+	width: 100%;
+	font-size: 13px;
+	color: black;
+	line-height: 13px;
+}
+.seckill .tabContent .tabContentUl .afterName {
+	float: left;
+	margin-top: 13px;
+	font-size: 12px;
+	line-height: 12px;
+	width: 100%;
+	color: #6b6b6b;
+}
+.seckill .tabContent .tabContentUl .aaName {
+	float: left;
+	margin-top: 19px;
+	width: 100%;
+}
+.seckill .tabContent .tabContentUl .aaName .price {
+	float: left;
+	font-size: 19px;
+	color: red;
+}
+.seckill .tabContent .tabContentUl .aaName .price::before {
+	content: "￥";
+	font-size: 11px;
+}
+.seckill .tabContent .tabContentUl .aaName .oldPrice {
+	float: left;
+	font-size: 11px;
+	color: #949494;
+	margin-left: 12px;
+	margin-top: 2px;
+	text-decoration: line-through;
+}
+.seckill .tabContent .tabContentUl .aaName .oldPrice::before {
+	content: "￥"
+}
+.seckill .tabContent .tabContentUl .aaName .tag {
+	float: right;
+	width: 60px;
+	height: 20px;
+	border: 1px solid red;
+	border-radius: 2px;
+	font-size: 13px;
+	text-align: center;
+	color: red;
+	line-height: 20px;
+}
+.seckill .tabContent .tabContentUl .aaName .active{
+	color: #999;border: 1px dashed #999;
+}
